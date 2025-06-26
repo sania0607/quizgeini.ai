@@ -42,7 +42,7 @@ def parse_json_mcqs(response_text):
         return []
 
 #  Streamlit UI
-st.set_page_config(page_title=" QuizGeini.ai")
+st.set_page_config(page_title=" QuizGeini.ai")  
 st.title("🧞 QuizGeini.ai")
 st.markdown("**Upload a PDF. Get Instant MCQs. Ace Your Prep — Powered by Gemini + Magic ✨**")
 

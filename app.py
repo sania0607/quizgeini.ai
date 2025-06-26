@@ -9,7 +9,7 @@ import os
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 if not api_key:
     st.error("⚠️ API Key not found. Please set GEMINI_API_KEY in your .env file.")

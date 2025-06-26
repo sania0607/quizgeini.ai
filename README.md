@@ -1,6 +1,6 @@
 # 🧞 QuizGeini.ai
 
-**AI-powered MCQ quiz generator from PDFs – built with Gemini API and Streamlit by Sania Rajput.**
+**AI-powered MCQ quiz generator from PDFs – built with Gemini API and Streamlit.**
 
 > _"Upload a PDF. Get Instant MCQs. Ace Your Prep — Powered by Gemini + Magic ✨"_
 

@@ -41,8 +41,34 @@ Whether you're preparing for exams or brushing up on concepts, QuizGeini.ai save
 
 Follow these steps to run QuizGeini.ai locally on your system:
 
-### 1. Clone the Repository
+1. **Clone the Repository**
 
-```bash
+```sh
 git clone https://github.com/sania0607/quizgeini.ai.git
 cd quizgeini.ai
+```
+
+2. **Install dependencies**  
+```sh
+pip install -r requirements.txt
+```
+
+3. **Create a `.env` file**  
+In the project root, create a file named `.env` and add your Gemini API key:
+```
+GEMINI_API_KEY=your-gemini-api-key-here
+```
+
+4. **Run the Streamlit app**  
+```sh
+streamlit run app.py
+```
+
+5. **Open the app in your browser**  
+Go to [http://localhost:8501](http://localhost:8501) to use QuizGeini.ai.
+
+---
+
+**Note:**  
+- You need a valid Gemini API key from Google.  
+- Make sure your `.env` file is in the same directory as `app.py`.
